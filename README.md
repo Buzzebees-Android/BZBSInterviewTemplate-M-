@@ -9,13 +9,13 @@ We plan to launch a privileged app. Your responsibility is to create the project
 
 ## Your task
 
-Your task is to create a Buzzebees privileged app. The app has two main pages, Main Page and Details Page. When a user clicks a campaign, it navigates to the campaign's details page.The details page display the details of the selected campaign from the main page.
+Your task is to create a Buzzebees privileged app. The app has two main pages, Campaign List Page and Details Page. When a user clicks a campaign item, it navigates to the campaign's details page. The details page display the details of the selected campaign from the main page.
 
 ## Design
 
 Please refer to this link
 ```
-https://www.figma.com/file/F5bUJNmMG4XwXucXfad1xW/Buzzebees-Android-Test?node-id=0%3A1
+https://www.figma.com/file/VXpHjgQVYMXSkzKu4Pf5QH/Buzzebees-Android-Test-Level-1?node-id=0%3A1
 ```
 Your final UI can look different from the design, but it should include the same information we provided.
 
