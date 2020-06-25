@@ -1,6 +1,6 @@
 # BuzzeBees Android Assignment 
 
-## Deadline : (dd/mm/yyyy)
+## Deadline : (26/06/2020)
 ## Confidential
 Please don't disclose this assignment with anyone. 
 
@@ -9,15 +9,7 @@ We plan to launch a privileged app. Your responsibility is to create the project
 
 ## Your task
 
-Your task is to create a Buzzebees privileged app. The app has two main pages, Main Page and Details Page
- 
-The app main page consists of 3 sub-pages, Dashboard, Campaigns, and Favorites. The top section shows the pages' name and the bottom shows a Bottom Navigation Bar. When a user clicks a campaign, it navigates to the campaign's details page. Additionally, users can change a display language by clicking the change language button on the top of the page.
-
-To create a good user experience, before you get a response from API, you need to show loading progress. In case of any connection issues, you have to show a "no connection screen" that includes the "no connection" image, message, and "try again" button. By clicking on the button, it will load the data again.
-
-The details page display the details of the selected campaign from the main page. It has a favourite button to mark the campaign as a favourite. You have to implement your mechanics to mark the campaign.
-
-Since we are making a high-quality application, we should handle all possible cases properly (no internet connection, showing loading progress, support screen rotation, error handling)
+Your task is to create a Buzzebees privileged app. The app has two main pages, Main Page and Details Page. When a user clicks a campaign, it navigates to the campaign's details page.The details page display the details of the selected campaign from the main page.
 
 ## Design
 
@@ -28,11 +20,6 @@ https://www.figma.com/file/F5bUJNmMG4XwXucXfad1xW/Buzzebees-Android-Test?node-id
 Your final UI can look different from the design, but it should include the same information we provided.
 
 ## API details
-
-To get the dashboard, please use 
-```
-GET https://firebasestorage.googleapis.com/v0/b/android-interview-test.appspot.com/o/dashboard.json?alt=media&token=e49c0393-c604-406e-b2bd-7ba1597ca231
-```
 
 To get the campaign list, please use
 ```
@@ -52,29 +39,10 @@ GET https://firebasestorage.googleapis.com/v0/b/android-interview-test.appspot.c
 * **[Bonus]** Having some unit test
 
 ## Application requirements
-### Dashboard Screen
-
-![Dashboard](https://github.com/Buzzebees/BZBSInterviewTemplate/blob/master/screenshots/Home.png?raw=true)
-
-The dashboard is a list of dashboard objects. Each dashboard object has its `type` to determine how they are rendered on the screen.
-
-In this project, you will work with the following types of the dashboard:
-
-Type | Size | Description
---- | --- | ---
-campaign | small | Display a square image using `image_url`, other properties can be ignored.
-campaign | medium | Display a rectangular image using `image_url`, other properties can be ignored.
-header | - | Display a simple text using `name`.
-campaign_rotate | big | Display a horizontally rotatable pager of dashboards. It contains `subcampaigndetails` which is a list of dashboards to be displayed.
-campaign_rotate | small | Display a horizontal list of dashboards. Like a big campaign_rotate, it contains `subcampaigndetails`. This dashboard cannot be rotated.
-
-By clicking a dashboard item, the app will navigate to Details Screen.
-
-Users can click the change language button to change the display language of the app.
 
 ### Campaign List Screen
 
-![List](https://github.com/Buzzebees/BZBSInterviewTemplate/blob/master/screenshots/Campaigns.png?raw=true)
+![List](https://github.com/Buzzebees/BZBSInterviewTemplate2/blob/master/screenshots/Campaigns.png?raw=true)
 
 Display a grid of campaigns. Each item displays an image, name, price using `image_url`, `name`, and `price` respectively.
 
@@ -82,7 +50,7 @@ By clicking a campaign, the app will navigate to Details Screen
 
 ### Detail Screen
 
-![Details](https://github.com/Buzzebees/BZBSInterviewTemplate/blob/master/screenshots/Details%201.png?raw=true)
+![Details](https://github.com/Buzzebees/BZBSInterviewTemplate2/blob/master/screenshots/Details%201.png?raw=true)
 
 Display the following details of a campaign
 
@@ -90,16 +58,6 @@ Display the following details of a campaign
 * Name
 * Price
 * Description
-
-The heart button is a favourite button to mark this campaign as a favourite. 
-
-### Favourite Screen
-
-![Favorite](https://github.com/Buzzebees/BZBSInterviewTemplate/blob/master/screenshots/Favorite.png?raw=true)
-
-Display a grid of user favourite campaigns
-
-By clicking an item, the app will navigate to Details Screen
 
 ## Submission process
   You can use this repository while you are developing the app. 
