@@ -49,7 +49,7 @@ curl --location 'https://firebasestorage.googleapis.com/v0/b/android-interview-t
 ## Application requirements
 ### Home Screen
 
-![Home](https://github.com/Buzzebees-Android/BZBSInterviewTemplate-XL-/blob/master/screenshots/Home.png?raw=true)
+![Home](https://github.com/Buzzebees-Android/BZBSInterviewTemplate-M-/blob/master/screenshots/Home.png?raw=true)
 
 The dashboard is a list of dashboard objects. Each dashboard object has its `type` to determine how they are rendered on the screen.
 
@@ -67,7 +67,7 @@ By clicking a dashboard item, the app will navigate to Details Screen.
 
 ### Rewards Screen
 
-![Rewards](https://github.com/Buzzebees-Android/BZBSInterviewTemplate-XL-/blob/master/screenshots/Campaigns.png?raw=true)
+![Rewards](https://github.com/Buzzebees-Android/BZBSInterviewTemplate-M-/blob/master/screenshots/Campaigns.png?raw=true)
 
 Display a grid of campaigns. Each item displays an image, name, price using `image_url`, `name`, and `price` respectively.
 
@@ -75,7 +75,7 @@ By clicking a campaign, the app will navigate to Details Screen.
 
 ### Favourite Screen
 
-![Favorite](https://github.com/Buzzebees-Android/BZBSInterviewTemplate-XL-/blob/master/screenshots/Favorite.png?raw=true)
+![Favorite](https://github.com/Buzzebees-Android/BZBSInterviewTemplate-M-/blob/master/screenshots/Favorite.png?raw=true)
 
 Display a grid of user's favourite campaigns.
 
@@ -83,7 +83,7 @@ By clicking an item, the app will navigate to Details Screen.
 
 ### Detail Screen
 
-![Details](https://github.com/Buzzebees-Android/BZBSInterviewTemplate-XL-/blob/master/screenshots/Details.png?raw=true)
+![Details](https://github.com/Buzzebees-Android/BZBSInterviewTemplate-M-/blob/master/screenshots/Details.png?raw=true)
 
 Display the following details of a campaign
 
